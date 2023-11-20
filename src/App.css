@@ -754,6 +754,7 @@ footer {
 .footer-4 {
 	width: 100%;
 	column-gap: 16px;
+	align-items: center;
 }
 .languages-box {
 	background-color: white;
@@ -795,4 +796,19 @@ footer {
 	text-indent: 1px;
 	text-overflow: "";
 	padding: 4px 0;
+}
+.socials {
+	margin-left: 32px;
+	display: flex;
+	column-gap: 14px;
+}
+.socials a {
+	width: 18px;
+	height: 18px;
+	opacity: 0.7;
+	border-radius: 8px;
+	transition: opacity 0.15s ease-in-out 0s;
+}
+.socials a:hover {
+	opacity: 1;
 }
