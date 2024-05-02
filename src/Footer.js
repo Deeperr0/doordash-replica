@@ -163,23 +163,23 @@ export default function Footer() {
 					</div>
 					<div className="downloads">
 						<button className="apple">
-							<img src={apple} />
+							<img src={apple} alt="apple" />
 						</button>
 						<button className="android">
-							<img src={android} />
+							<img src={android} alt="android" />
 						</button>
 					</div>
 				</div>
 				<div className="footer-4">
 					<img src={logo} alt="logo" className="footer-logo" />
-					<a href="#">Terms of Service</a>
-					<a href="#">Privacy</a>
-					<a href="#">Delivery Locations</a>
-					<a href="#">California Privacy</a>
-					<a href="#">Do Not Sell or Share My Personal Information</a>
+					<a href="/">Terms of Service</a>
+					<a href="/">Privacy</a>
+					<a href="/">Delivery Locations</a>
+					<a href="/">California Privacy</a>
+					<a href="/">Do Not Sell or Share My Personal Information</a>
 					<p className="trademark">© 2023 DoorDash</p>
 					<div className="languages-box">
-						<img src={earth} className="earth-symbol" />
+						<img src={earth} className="earth-symbol" alt="earth-symbol" />
 						<select name="languages" id="languages" defaultValue={"en-us"}>
 							<option value="en-us">English (US)</option>
 							<option value="es-us">Español (US)</option>
@@ -188,10 +188,10 @@ export default function Footer() {
 							<option value="en-au">English (AU)</option>
 							<option value="en-nz">English (NZ)</option>
 						</select>
-						<img src={menuArrow} className="menu-symbol" />
+						<img src={menuArrow} className="menu-symbol" alt="menu-symbol" />
 					</div>
 					<div className="socials">
-						<a href="facebook.com">
+						<a href="www.facebook.com">
 							<svg
 								width="24"
 								height="24"
@@ -206,7 +206,7 @@ export default function Footer() {
 								/>
 							</svg>
 						</a>
-						<a href="twitter.com">
+						<a href="www.twitter.com">
 							<svg
 								width="24"
 								height="24"
@@ -221,7 +221,7 @@ export default function Footer() {
 								/>
 							</svg>
 						</a>
-						<a href="instagram.com">
+						<a href="www.instagram.com">
 							<svg
 								width="24"
 								height="24"

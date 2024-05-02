@@ -49,7 +49,7 @@ export default function Hero() {
 				</button>
 			</div>
 
-			<a href="#">
+			<a href="/">
 				<button className="sign-in-address">
 					<svg
 						width="16"

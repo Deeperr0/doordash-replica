@@ -14,7 +14,7 @@ export default function FindRestaurant() {
 					Get a slice of pizza or the whole pie delivered, or pick up house lo
 					mein from the Chinese takeout spot you've been meaning to try.
 				</p>
-				<a href="#">
+				<a href="/">
 					<button className="find-restaurant-button">Find restaurants</button>
 				</a>
 			</div>
