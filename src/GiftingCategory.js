@@ -5,7 +5,7 @@ export default function GiftingCategory(props) {
 			<img
 				src={props.image}
 				className="gifting-category-image"
-				alt="gifting-category-image"
+				alt="gifting-category"
 			/>
 			<h2 className="gifting-category-title">{props.title}</h2>
 			<p className="gifting-category-text">{props.description}</p>
